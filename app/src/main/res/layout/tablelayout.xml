@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+
+    <TableRow>
+        <TextView
+            android:text="@string/TableLayout"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@color/grey"
+            android:paddingLeft="10dp"
+            tools:ignore="RtlHardcoded,RtlSymmetry" />
+        <TextView
+            android:background="@color/grey"
+            android:paddingLeft="10dp"
+            tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/Open"
+            android:paddingLeft="10dp"
+            tools:ignore="RtlHardcoded,RtlSymmetry"/>
+        <TextView
+            android:text="@string/CtrlO"
+            android:gravity="right"
+            android:paddingRight="10dp"
+            tools:ignore="RtlHardcoded,RtlSymmetry"/>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/Save"
+            android:paddingLeft="10dp"
+            tools:ignore="RtlHardcoded,RtlSymmetry"/>
+        <TextView
+            android:text="@string/CtrlS"
+            android:gravity="right"
+            android:paddingRight="10dp"
+            tools:ignore="RtlHardcoded,RtlSymmetry"/>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/SaveAs"
+            android:paddingLeft="10dp"
+            tools:ignore="RtlHardcoded,RtlSymmetry"/>
+        <TextView
+            android:text="@string/CtrlShiftS"
+            android:gravity="right"
+            android:paddingRight="10dp"
+            tools:ignore="RtlHardcoded,RtlSymmetry"/>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/Import"
+            android:paddingLeft="10dp"
+            tools:ignore="RtlHardcoded,RtlSymmetry"/>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/Export"
+            android:paddingLeft="10dp"
+            tools:ignore="RtlHardcoded,RtlSymmetry"/>
+        <TextView
+            android:text="@string/CtrlE"
+            android:gravity="right"
+            android:paddingRight="10dp"
+            tools:ignore="RtlHardcoded,RtlSymmetry"/>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/Quit"
+            android:paddingLeft="10dp"
+            tools:ignore="RtlHardcoded,RtlSymmetry"/>
+
+    </TableRow>
+
+</TableLayout>

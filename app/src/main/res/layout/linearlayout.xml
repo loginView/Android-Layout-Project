@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="@string/but_oneone"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="@string/but_onetwo"
+            tools:ignore="ButtonStyle"/>
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="@string/but_onethree"
+            tools:ignore="ButtonStyle"/>
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="@string/but_onefour"
+            tools:ignore="ButtonStyle"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="@string/but_twoone"
+            tools:ignore="ButtonStyle"/>
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="@string/but_twotwo"
+            tools:ignore="ButtonStyle"/>
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="@string/but_twothree"
+            tools:ignore="ButtonStyle"/>
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="@string/but_twofour"
+            tools:ignore="ButtonStyle"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="@string/but_threeone"
+            tools:ignore="ButtonStyle"/>
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="@string/but_threetwo"
+            tools:ignore="ButtonStyle"/>
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="@string/but_threethree"
+            tools:ignore="ButtonStyle"/>
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="@string/but_threefour"
+            tools:ignore="ButtonStyle"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="@string/but_fourone"
+            tools:ignore="ButtonStyle"/>
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="@string/but_fourtwo"
+            tools:ignore="ButtonStyle"/>
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="@string/but_fourthree"
+            tools:ignore="ButtonStyle"/>
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="@string/but_fourfour"
+            tools:ignore="ButtonStyle"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

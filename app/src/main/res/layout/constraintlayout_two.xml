@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/space_station"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:src="@drawable/space_station_icon"
+            tools:ignore="RtlHardcoded" />
+
+        <ImageView
+            android:id="@+id/rocket"
+            android:src="@drawable/rocket_icon"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="20dp"
+            tools:ignore="RtlHardcoded"/>
+
+        <ImageView
+            android:id="@+id/rover"
+            android:src="@drawable/rover_icon"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="20dp"
+            tools:ignore="RtlHardcoded"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearlayout1"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:id="@+id/space_station_text"
+            android:text="@string/space_stations"
+            android:textColor="@color/grey"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="-5dp"
+            android:layout_marginBottom="20dp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/rocket_text"
+            android:text="@string/flights"
+            android:textColor="@color/grey"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="78dp"
+            android:layout_marginTop="-5dp"
+            android:layout_marginBottom="20dp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/rover_text"
+            android:text="@string/rovers"
+            android:textColor="@color/grey"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="-5dp"
+            android:layout_marginBottom="20dp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearlayout2"
+        tools:ignore="MissingConstraints">
+        <Button
+            android:id="@+id/seven"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/dca"
+            android:textColor="@color/white"
+            android:background="@color/green"
+            android:scaleX="1.5"
+            android:scaleY="4.0"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="35dp"
+            tools:ignore="RtlHardcoded" />
+
+        <ImageButton
+            android:id="@+id/double_arrows"
+            android:src="@drawable/double_arrows"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="0dp"
+            tools:ignore="RtlHardcoded"/>
+
+        <Button
+            android:id="@+id/eight"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/mars"
+            android:textColor="@color/white"
+            android:background="@color/green"
+            android:scaleX="1.5"
+            android:scaleY="4.0"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="35dp"
+            tools:ignore="RtlHardcoded"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearlayout3"
+        tools:ignore="MissingConstraints">
+        <Button
+            android:id="@+id/oneway"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/oneway"
+            android:textColor="@color/white"
+            android:background="@color/orange"
+            android:scaleX="2.0"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            tools:ignore="RtlHardcoded" />
+
+        <Button
+            android:id="@+id/traveller"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/traveller"
+            android:textColor="@color/white"
+            android:background="@color/orange"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"
+            tools:ignore="RtlHardcoded"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearlayout4"
+        tools:ignore="MissingConstraints">
+        <ImageView
+            android:id="@+id/rocket_two"
+            android:src="@drawable/rocket_icon"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:scaleX="0.4"
+            android:scaleY="0.4"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="40dp"
+            tools:ignore="RtlHardcoded" />
+
+        <ImageView
+            android:id="@+id/galaxy"
+            android:src="@drawable/galaxy"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="30dp"
+            tools:ignore="RtlHardcoded"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/depart"
+        android:layout_width="391dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/green"
+        android:text="@string/depart"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearlayout5"
+        tools:ignore="RtlHardcoded" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

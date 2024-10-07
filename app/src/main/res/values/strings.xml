@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Layout</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem.
+    </string>
+    
+    <string name="but_oneone">One,One</string>
+    <string name="but_onetwo">One,Two</string>
+    <string name="but_onethree">One,Three</string>
+    <string name="but_onefour">One,Four</string>
+    <string name="but_twoone">Two,One</string>
+    <string name="but_twotwo">Two,Two</string>
+    <string name="but_twothree">Two,Three</string>
+    <string name="but_twofour">Two,Four</string>
+    <string name="but_threeone">Three,One</string>
+    <string name="but_threetwo">Three,Two</string>
+    <string name="but_threethree">Three,Three</string>
+    <string name="but_threefour">Three,Four</string>
+    <string name="but_fourone">Four,One</string>
+    <string name="but_fourtwo">Four,Two</string>
+    <string name="but_fourthree">Four,Three</string>
+    <string name="but_fourfour">Four,Four</string>
+
+    <string name="TableLayout">Hello TableLayout</string>
+    <string name="Open">Open…</string>
+    <string name="Save">Save…</string>
+    <string name="SaveAs">Save As…</string>
+    <string name="Import">X Import…</string>
+    <string name="Export">X Export…</string>
+    <string name="Quit">Quit</string>
+    <string name="CtrlO">Ctrl-O</string>
+    <string name="CtrlS">Ctrl-S</string>
+    <string name="CtrlShiftS">Ctrl-Shift-S</string>
+    <string name="CtrlE">Ctrl-E</string>
+
+    <string name="Constraintlayout">ConstraintLayoutTest</string>
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="add">+</string>
+    <string name="substract">-</string>
+    <string name="multiply">×</string>
+    <string name="divide">÷</string>
+    <string name="point">.</string>
+    <string name="equal">=</string>
+    <string name="input">Input</string>
+    <string name="hint">0.0</string>
+
+    <string name="space_stations">Space Stations</string>
+    <string name="flights">Flights</string>
+    <string name="rovers">Rovers</string>
+    <string name="dca">DCA</string>
+    <string name="mars">MARS</string>
+    <string name="oneway">One Way</string>
+    <string name="traveller">1 Traveller</string>
+    <string name="depart">DEPART</string>
+
+
+</resources>
