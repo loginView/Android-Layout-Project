@@ -22,26 +22,12 @@
         />
 
     <TextView
-        android:id="@+id/input"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:padding="16dp"
-        android:text="@string/input"
-        android:textSize="32sp"
-        android:textColor="@color/grey"
-        tools:ignore="MissingConstraints"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/constraintlayout"
-        />
-
-    <EditText
         android:id="@+id/edittext"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:padding="16dp"
-        android:hint="@string/hint"
+        android:text="@string/hint"
         android:gravity="right"
         android:textSize="32sp"
         android:background="@color/brown"
@@ -49,6 +35,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/input"/>
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:hint="@string/input"
+        android:textSize="32sp"
+        android:textColor="@color/grey"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/constraintlayout" />
 
 
     <GridLayout
